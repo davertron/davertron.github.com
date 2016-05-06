@@ -23,7 +23,7 @@
         e.preventDefault();
         var searchValue = searchInput.value.trim();
         if (searchValue !== '') {
-            fetch('https://api.flickr.com/services/rest/?api_key=662719defec5070ef19605af408ebef9&format=json&nojsoncallback=1&method=flickr.photos.search&tags=' + searchValue)
+            fetch('https://api.flickr.com/services/rest/?api_key=662719defec5070ef19605af408ebef9&format=json&nojsoncallback=1&method=flickr.photos.search&safe_search=1&tags=' + searchValue)
                 .then(function(response) {
                     if (!response.ok) {
                         throw new Error(response.statusText);
