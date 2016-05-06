@@ -1,0 +1,56 @@
+body {
+    background-color: #F1F1F1;
+}
+
+h1 {
+    text-align: center;
+    color: #1057ae;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+input[type="submit"] {
+    background-color: #1057ae;
+    color: white;
+    padding: 0.5em 1em;
+    border: 1px solid #2F508E;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(16, 87, 174, 0.9);
+}
+
+.flickr-pink {
+    color: #FF0084;
+}
+
+#search {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+.photo {
+    width: 20%;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid #cfcfcf;
+    margin: 12px;
+}
+
+@media(max-width: 600px) {
+    .photo {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 12px;
+        display: block;
+    }
+}
